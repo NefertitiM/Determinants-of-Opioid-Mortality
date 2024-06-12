@@ -164,3 +164,4 @@ cython_debug/
 # Ignore MacOS files
 .DS_Store
 .virtual_documents/
+/Offline
