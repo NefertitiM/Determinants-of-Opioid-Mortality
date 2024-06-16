@@ -30,11 +30,64 @@ Once I had my datasets, each dataset included plenty of information that was unr
 df = df[['state_National', 'total_est_pct2']]
 df = df.dropna(inplace=False)
 
+By doing this, my dataframe will only show me what I need. The state and the percent of each state’s population that lives in poverty. I also wanted to abbreviate every state so my data would be easier to read. To do that I added an abbreviated state column to my dataframe called “Abbreviations” 
+
+I wanted to show this information for every single state, so to do that I created a heat map from my dataframe. 
+
+```python
+fig = px.choropleth(df,
+                    locations='Abbreviation',
+                    locationmode="USA-states",
+                    color='total_est_pct2',
+                    scope="usa",
+                    color_continuous_scale="YlOrRd",  # or any other color scale
+                    title=" % of Sates Population in Poverty")
 
 
+fig.show()
+
+show state_poverty_map.png here
+
+To further show this information in a more condensed and easier to read way. I created a bar graph just showing the top 10 states with the highest poverty percentage.
+
+```python
+df4 = pd.DataFrame(data)
+top_5_states = df4.sort_values(by='total_est_pct2', ascending=False).head(10)
 
 
+plt.figure(figsize=(10, 6))
+plt.bar(top_5_states['Abbreviation'], top_5_states['total_est_pct2'], color='orange')
+plt.xlabel('State')
+plt.ylabel('Percent of People in Poverty')
+plt.title('Top 10 States with the Highest Percent of People Living in Poverty')
 
+show poverty_graph.png image here
+
+For the second dataset I only wanted to look at each state, the total population and the number of opioid related deaths per 100k people.
+
+Code Example:
+df3 = df2.loc[(df2["Year"] == 2014), ["State", "Deaths", "Abbreviation"]]
+df3 = pd.merge(df3, pop_by_state_df2, how="inner", on="Abbreviation")
+df3 = df3[["State", "Abbreviation", "Deaths", "Population"]]
+df3["Deaths"] = df3["Deaths"].astype(int)
+df3["Deaths per 100k"] = df3["Deaths"].div(df3["Population"].values,axis=0)
+df3["Deaths per 100k"] = df3["Deaths per 100k"].round(3)
+df3.head()
+
+I displayed this data using a Bar Chart similar to the one I just showed above.
+
+show opioid_deathsV2.png here
+
+
+## Analysis Process
+
+After breaking down the datasets I was able to merge them and create a double bar chart showing my findings side by side to see if there was any relation to the original proposed question. 
+I displayed the first bar chart in descending sort, with the highest poverty percentage state first and I stacked that next to the total population and the number of opioid related deaths per 100k people.
+
+After looking at the final bar graph that included all the information merged into one. I was able to draw the conclusion that there is NO relation between people living in poverty and the number of opioid related deaths.
+
+
+show poverty_vs_deaths.png figure here
 
 
 
