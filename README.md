@@ -84,7 +84,7 @@ I displayed this data using a Bar Chart similar to the one I just showed above.
 After breaking down the datasets I was able to merge them and create a double bar chart showing my findings side by side to see if there was any relation to the original proposed question. 
 I displayed the first bar chart in descending sort, with the highest poverty percentage state first and I stacked that next to the total population and the number of opioid related deaths per 100k people.
 
-After looking at the final bar graph that included all the information merged into one. I was able to draw the conclusion that there is NO relation between people living in poverty and the number of opioid related deaths.
+After looking at the final bar graph that included the merged data. I came to the conclusion that our expectation of people living in poverty had a higher death rate due to opioids were not true.
 
 
 ![Alt text](images/poverty_vs_deaths.png)
