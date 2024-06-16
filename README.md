@@ -30,3 +30,10 @@
 6) The implications of your findings: what do your findings mean?
 
 * Overall, the data shows that a male using opioids, especially synthetics such as fentanyl, between the ages of 25 to 44 years old in the US is being more highly susceptible to overdosing as compared to the overall population.
+
+## Additional charts:
+![Opioid Deaths by Age Group](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_age.png)
+
+![Opioid Deaths by Gender](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_gender.png)
+
+![Opioid Deaths by Drug - Detailed](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_synth1.png)
