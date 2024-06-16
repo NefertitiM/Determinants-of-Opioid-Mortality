@@ -20,7 +20,7 @@
 
 4) The analysis process (accompanied by your Jupyter notebook)
 
-* TBD
+![Opioid Deaths by Drug](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_synth1.png)
 
 5) Your conclusions, including a numerical summary and visualizations of the summary
 
