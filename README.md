@@ -46,7 +46,7 @@ fig = px.choropleth(df,
 
 fig.show()
 
-show state_poverty_map.png here
+![Alt text](images/state_poverty_map.png)
 
 To further show this information in a more condensed and easier to read way. I created a bar graph just showing the top 10 states with the highest poverty percentage.
 
@@ -61,7 +61,7 @@ plt.xlabel('State')
 plt.ylabel('Percent of People in Poverty')
 plt.title('Top 10 States with the Highest Percent of People Living in Poverty')
 
-show poverty_graph.png image here
+![Alt text](images/poverty_graph.png)
 
 For the second dataset I only wanted to look at each state, the total population and the number of opioid related deaths per 100k people.
 
@@ -76,7 +76,7 @@ df3.head()
 
 I displayed this data using a Bar Chart similar to the one I just showed above.
 
-show opioid_deathsV2.png here
+![Alt text](images/poverty_graph.png)
 
 
 ## Analysis Process
@@ -87,7 +87,7 @@ I displayed the first bar chart in descending sort, with the highest poverty per
 After looking at the final bar graph that included all the information merged into one. I was able to draw the conclusion that there is NO relation between people living in poverty and the number of opioid related deaths.
 
 
-show poverty_vs_deaths.png figure here
+![Alt text](images/poverty_vs_deaths.png)
 
 
 
