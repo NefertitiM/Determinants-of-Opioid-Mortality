@@ -6,6 +6,7 @@ The question my data set deals with is: How does the opioid crisis break down by
 I find it a worthwhile area of exploration because the country of the United States is so vast and demographically widespread. It is fascinating to see how different urban and rural environments and states around the country might be decomposed in terms of drug usage and abuse. This dataset allows us to examine exactly this.
 # Data Collection
 I used the following dataset assembled from the CDC's Injury Center, which contains overdose rates and deaths by state for the timeframe of 2013-2019. This data is conveniently organized and easy to use, which is what drew me to it in addressing my research question. It also contains state information pertaining to its GDP, poverty rate, inequality, and population density. This is useful for comparing overdose rates to other potentially intervening factors. 
+
 https://www.kaggle.com/datasets/craigchilvers/opioids-in-the-us-cdc-drug-overdose-deaths
 # Data Exploration and Cleaning
 The first step necessary was examining the data and cleaning it for processing into useful graphs or statistical correlation. I renamed several columns which I deemed worthy of being shortened or otherwise. I found several missing entries for the Capitol, Washington D.C., which I proceeded to drop from my analysis. 
