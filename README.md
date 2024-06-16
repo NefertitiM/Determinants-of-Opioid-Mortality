@@ -36,4 +36,4 @@
 
 ![Opioid Deaths by Gender](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_gender.png)
 
-![Opioid Deaths by Drug - Detailed](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_synth1.png)
+![Opioid Deaths by Drug - Detailed](https://github.com/NefertitiM/Fentanyl_Project1/blob/adrian/output/rate_by_synth.png)
