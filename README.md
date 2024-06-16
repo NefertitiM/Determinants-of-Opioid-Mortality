@@ -26,7 +26,7 @@ Once I had my datasets, each dataset included plenty of information that was unr
 
 ### Code Example for Cleaning Poverty Data
 
-```python
+
 df = df[['state_National', 'total_est_pct2']]
 df = df.dropna(inplace=False)
 
@@ -34,7 +34,7 @@ By doing this, my dataframe will only show me what I need. The state and the per
 
 I wanted to show this information for every single state, so to do that I created a heat map from my dataframe. 
 
-```python
+
 fig = px.choropleth(df,
                     locations='Abbreviation',
                     locationmode="USA-states",
@@ -50,7 +50,7 @@ show state_poverty_map.png here
 
 To further show this information in a more condensed and easier to read way. I created a bar graph just showing the top 10 states with the highest poverty percentage.
 
-```python
+
 df4 = pd.DataFrame(data)
 top_5_states = df4.sort_values(by='total_est_pct2', ascending=False).head(10)
 
@@ -65,7 +65,7 @@ show poverty_graph.png image here
 
 For the second dataset I only wanted to look at each state, the total population and the number of opioid related deaths per 100k people.
 
-Code Example:
+
 df3 = df2.loc[(df2["Year"] == 2014), ["State", "Deaths", "Abbreviation"]]
 df3 = pd.merge(df3, pop_by_state_df2, how="inner", on="Abbreviation")
 df3 = df3[["State", "Abbreviation", "Deaths", "Population"]]
