@@ -7,7 +7,7 @@ According to most sources, the "Opioid Epidemic" got its start around the early 
 
 -Is the opioid crisis region/state specific?
 
--Is there a relation between people in the United States that live in poverty and the amount of deaths related to opioids?
+-Is there a relationship between poverty and the amount of opioid related-deaths?
 
 -Has access to prescription opioids shaped the current wave of the opioid crisis?
 
@@ -27,7 +27,7 @@ CDC Injury Center: https://www.kaggle.com/datasets/craigchilvers/opioids-in-the-
 Multiple datasets related to opioid mortality, demographic, socioeconomic and geographic factors were used in this study. All datasets were acquired as .csv files. API keys were not available on the websites where we obtained our data. Once obtained, subsets of the data, pertinent to our research, were isolated (i.e. overall opioid overdose deaths with a focus on synthetic opioids). Once the datasets were filtered to the key subject matter, a variety of line plots, bar plots, and heatmaps were used to visualize different trends ranging from 1991 to 2023.
 
 ### Sample Code
-The first dataset was broken down to only look at the percentage of people living in poverty for individual states. By doing this, the dataframe will only show whats relevant to the question. I also wanted to abbreviate every state so my data would be easier to read.
+The first dataset was broken down to look at the percentage of people living in poverty for individual states. By doing this, the dataframe only shows relevant information.
 
      *df = df[['state_National', 'total_est_pct2']] df = df.dropna(inplace=False)*
      
@@ -46,7 +46,7 @@ In order to get a better understanding of the impacts of synthetic opioids to th
 ![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/Output/rate_by_synth1.png)
 
 
-The first dataset was broken down to only look at the precentage of people in poverty per individual state. To show this information in a condensed way, a bar graph showing the top 10 states with the highest percentage of poverty was generated. A smiliar bar graph was made, showing the top ten states with the highest opioid-related deaths per 100k people (These graphs can be found in the powerpoint slides and jupyter notebook). The graph below summarizes the previous two, allowing for a comparison of povery and opioid-related deaths.
+To examine the precentage of people in poverty per individual state, a bar graph was generated. To condense the information, this only showed the top 10 states with the highest percentage of poverty. A smiliar bar graph was made, showing the top ten states with the highest opioid-related deaths per 100k people (these graphs can be found in the powerpoint slides and jupyter notebook). The graph below summarizes the two, allowing for a comparison of state poverty and opioid-related deaths.
 
 ![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/images/poverty_vs_deaths.png)
 
