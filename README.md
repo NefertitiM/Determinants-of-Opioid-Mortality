@@ -35,7 +35,6 @@ To show this information for every state, a heat map was created from the datafr
      *fig.show()*
      
 ![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/images/state_poverty_map.png)
-    images/state_poverty_map.png images/state_poverty_map.png
 
 ## Data Analysis
 
@@ -49,7 +48,7 @@ Has the prescription of opioid drugs influenced the increase in opioid deaths? D
 
 I broke down the first dataset to look only at the individual state itself and the percent of each state's population that lived in poverty. To further show this information in a more condensed and easier to read way. I created a bar graph just showing the top 10 states with the highest poverty percentage. For the second dataset I only wanted to look at each state, the total population and the number of opioid related deaths per 100k people.
 
-![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/Outputimages/poverty_vs_deaths.png)
+![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/images/poverty_vs_deaths.png)
 
 ## Result Summary
 By 2018, the impacts of opiod overdose deaths was more prominent with men than women, with the ratio of death rates of men to women was 2.23.
