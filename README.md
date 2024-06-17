@@ -46,7 +46,7 @@ Has the prescription of opioid drugs influenced the increase in opioid deaths? D
 
 ![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/Output/Country_Level_Trends_in_Morphine_Prescriptions.png)
 
-I broke down the first dataset to look only at the individual state itself and the percent of each state's population that lived in poverty. To further show this information in a more condensed and easier to read way. I created a bar graph just showing the top 10 states with the highest poverty percentage. For the second dataset I only wanted to look at each state, the total population and the number of opioid related deaths per 100k people.
+The first dataset was broken down to only look at the precentage of people in poverty per individual state. To show this information in a condensed way, a bar graph showing the top 10 states with the highest percentage of poverty was generated. A smiliar bar graph was made, showing the top ten states with the highest opioid-related deaths per 100k people (These graphs can be found in the powerpoint slides and jupyter notebook). The graph below summarizes the previous two, allowing for a comparison of povery and opioid-related deaths.
 
 ![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/images/poverty_vs_deaths.png)
 
