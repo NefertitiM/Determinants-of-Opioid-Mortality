@@ -95,6 +95,6 @@ After looking at the final bar graph that included the merged data. I came to th
 
 
 
-## additional analysis we were interested in had we had more time:
+## Additional Analysis We Were Interested in had we had more Time:
 - Look more into income as opposed to just poverty
   - This would allow us to dive deeper into a more specific correlation betweeen various incomes and opioid related deaths as opposed to just people in poverty.
