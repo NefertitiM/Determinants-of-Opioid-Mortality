@@ -11,17 +11,15 @@ According to most sources, the "Opioid Epidemic" got its start around the early 
 
 -Has access to prescription opioids shaped the current wave of the opioid crisis?
 
-## Data Aquisition
+## Data Acquisition
 
-Sourced demographic data from The Home of the US Government's Open Data website: https://catalog.data.gov/dataset/drug-overdose-death-rates-by-drug-type-sex-age-race-and-hispanic-origin-united-states-3f72f
+Demographic data from The Home of the US Government's Open Data website, Data.gov: [Demographic data](https://catalog.data.gov/dataset/drug-overdose-death-rates-by-drug-type-sex-age-race-and-hispanic-origin-united-states-3f72f)
 
-Drug prescription data by state and year from "Data.Medicaid.gov":(https://data.medicaid.gov/datasets?fulltext=State%20Drug%20Utilization%20Data)
+Drug prescription data by state and year from "Data.Medicaid.gov": [Prescription data](https://data.medicaid.gov/datasets?fulltext=State%20Drug%20Utilization%20Data)
 
 Economic Research Service (USDA)**: [USDA Data](https://data.ers.usda.gov/reports.aspx?ID=17826)
 
-Demographic Data from The Home of the US Government's Open Data**: [data.gov](https://data.gov)
-
-CDC Injury Center: https://www.kaggle.com/datasets/craigchilvers/opioids-in-the-us-cdc-drug-overdose-deaths
+CDC Injury Center: [Geographic data](https://www.kaggle.com/datasets/craigchilvers/opioids-in-the-us-cdc-drug-overdose-deaths)
 
 ## Data Exploration and Clean Up
 Multiple datasets related to opioid mortality, demographic, socioeconomic and geographic factors were used in this study. All datasets were acquired as .csv files. API keys were not available on the websites where we obtained our data. Once obtained, subsets of the data, pertinent to our research, were isolated (i.e. overall opioid overdose deaths with a focus on synthetic opioids). Once the datasets were filtered to the key subject matter, a variety of line plots, bar plots, and heatmaps were used to visualize different trends ranging from 1991 to 2023.
@@ -36,7 +34,7 @@ To show this information for every state, a heat map was created from the datafr
      *fig = px.choropleth(df, locations='Abbreviation', locationmode="USA-states", color='total_est_pct2', scope="usa", color_continuous_scale="YlOrRd", # or any other color scale title=" % of Sates Population in Poverty")*
      *fig.show()*
      
-![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/images/state_poverty_map.png)
+![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/Output/state_poverty_map.png)
 
 
 ## Data Analysis
@@ -49,7 +47,7 @@ In order to get a better understanding of the impacts of synthetic opioids to th
 
 To examine the percentage of people in poverty per individual state, a bar graph was generated. To condense the information, this only showed the top 10 states with the highest percentage of poverty. A similar bar graph was made, showing the top ten states with the highest opioid-related deaths per 100k people (these graphs can be found in the powerpoint slides and jupyter notebook). The graph below summarizes the two, allowing for a comparison of state poverty and opioid-related deaths.
 
-![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/images/poverty_vs_deaths.png)
+![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/Output/poverty_vs_deaths.png)
 
 
 
