@@ -57,7 +57,7 @@ Exploring geographic factors, bar charts showing overdose rates by state for 201
 
 
 
-Has the prescription of opioid drugs influenced the increase in opioid deaths? Drug prescription data "Data.Medicaid.gov" was used to quantify the amount of 4 prescription opioids (fentanyl, morphine, oxycodone, and hydrocodone), which was delineated by state and year. From 1991 to 2023 there was an increase in fentanyl prescriptions and a less drastic increase in morphine prescriptions. This is shown in a line plot, aggregating data from all 50 states, and heatmaps depicting the changes in prescription rates by state (heatmaps can be located in powerpoint slides and jupyter notebook). 
+Has the prescription of opioid drugs influenced the increase in opioid deaths? Drug prescription data "Data.Medicaid.gov" was used to quantify the amount of 4 prescription opioids (fentanyl, morphine, oxycodone, and hydrocodone), which was delineated by state and year. From 1991 to 2023 there was an increase in fentanyl prescriptions and a less drastic increase in morphine prescriptions. This is shown in a line plot, aggregating data from all 50 states, and heatmaps depicting the changes in prescription rates by state (heatmaps can be located in powerpoint slides and jupyter notebook). Trends in Medicaid reimbursement rates were also explored from the same dataset but no significant trends were found that were relevant to our story. Medicaid reimbursement was ruled out as a determinant of opioid related-mortality rates. 
 
 ![Opioid Deaths by Drug](https://github.com/NefertitiM/Determinants-of-Opioid-Mortality/blob/main/Output/Country_Level_Trends_in_Morphine_Prescriptions.png)
 
